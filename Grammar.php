@@ -1,3 +1,4 @@
+<?php
 namespace CodeSampleGenerator;
 
 class Grammar
@@ -7,3 +8,5 @@ class Grammar
      */
     private $productionRules;
 }
+
+?>

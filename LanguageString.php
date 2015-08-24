@@ -1,7 +1,8 @@
 namespace CodeSampleGenerator;
 
 class LanguageString
-{    /**
+{
+    /**
      * @var [Symbol]
      */
     private $symbols;
