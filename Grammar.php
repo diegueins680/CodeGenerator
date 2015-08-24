@@ -1,4 +1,5 @@
 <?php
+
 namespace CodeSampleGenerator;
 
 class Grammar

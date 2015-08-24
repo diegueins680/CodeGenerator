@@ -1,3 +1,5 @@
+<?php
+
 namespace CodeSampleGenerator;
 
 class Language
@@ -23,3 +25,5 @@ class Language
      */
     private $nonTerminalSymbols;
 }
+
+?>

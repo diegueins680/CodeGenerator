@@ -1,3 +1,5 @@
+<?php
+
 namespace CodeSampleGenerator;
 
 class ProductionRule
@@ -20,6 +22,8 @@ class ProductionRule
     }
     
     /**
+     * Applies the production rule to a language expression
+     *
      * @param $expression [Symbol]
      * @return LanguageString
      */
@@ -31,7 +35,7 @@ class ProductionRule
         {
             if($symbol == $this->startSymbol)
             {
-                $index+ = count($expression);
+                $index += count($expression);
                 $resultString = array_merge($resultString, $expression);
             }
             else
@@ -42,3 +46,5 @@ class ProductionRule
         return new LanguageString($resultString);
     }
 }
+
+?>

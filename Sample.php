@@ -1,6 +1,3 @@
-/* Sample.php */
-
-
 /**
  * A generated source code file.
  * 
